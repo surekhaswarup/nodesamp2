@@ -4,8 +4,11 @@
   "description": "",
   "main": "app4.js",
   "scripts": {
-    "myprog": "nodemon app4.js"
+    "test": "nodemon app4.js"
   },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies":{
+    "express":"^4.13.4"
+  }
 }
