@@ -2,7 +2,7 @@ var exp = require ('express')
 var app= exp()
 
 app.get('/',function(req,res){
-    res.send("You called Root");
+    res.send("You called Root" + port);
 });
 
 app.get('/download',function(req,res){
